@@ -43,7 +43,7 @@ let students = [
 ]
 
 function sortStudentMarksInDescendingOrder(student1, student2) {
-  return student2 - student1;
+  return student2.marks - student1.marks;
 }
 
 app.get ("/students/sort-by-marks-descending", (req, res) => {
